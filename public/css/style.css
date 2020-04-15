@@ -44,6 +44,7 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    width: 45%;
 }
 
 button {
@@ -52,4 +53,23 @@ button {
     background: #888888;
     color: whitesmoke;
     padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 58%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #888888;
+  color: white;
 }
